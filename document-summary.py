@@ -39,7 +39,7 @@ if st.button("Summarize"):
               model = Cohere(model="command", temperature=0.75)
               chain = load_summarize_chain(model, chain_type="stuff")
               search = vectordb.similarity_search(" ")
-              summary = chain.run(input_documents=search, question="Write a summary within 200 words and use bulet points.")
+              summary = chain.run(input_documents=search, question="Write a summary within 200 words and use bullet points.")
 
               st.success(summary)
         except Exception as e:
