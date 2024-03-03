@@ -1,4 +1,4 @@
- **# Document Summarization with Langchain, Chroma, Cohere, and Streamlit**
+# Document Summarization with Langchain, Chroma, Cohere, and Streamlit
 
 This project provides a Python-based web application that efficiently summarizes documents using Langchain, Chroma, and Cohere's language models. It offers a user-friendly interface for browsing and summarizing documents with ease.
 
